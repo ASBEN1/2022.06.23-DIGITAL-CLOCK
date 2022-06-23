@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIGITAL CLOCK HW</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="./Js/app.js"></script>
+</head>
+
+<body>
+
+  <div id="clock">
+    <div class="container">
+
+      <div id="time">
+
+        <div class="ap">
+          <div id="ampm">AM</div>
+        </div>
+
+        <div class="circle" style="--cir:#f31b0b;">
+          <svg>
+            <circle cx="84" cy="84" r="84"></circle>
+            <circle cx="84" cy="84" r="84" id="hh"></circle>
+          </svg>
+          <div id="hours">00</div>
+        </div>
+
+        <div class="circle" style="--cir:#0bf317;">
+          <svg>
+            <circle cx="84" cy="84" r="84"></circle>
+            <circle cx="84" cy="84" r="84" id="mm"></circle>
+          </svg>
+          <div id="min">00</div>
+        </div>
+
+        <div class="circle" style="--cir:#0b54f3;">
+          <svg>
+            <circle cx="84" cy="84" r="84"></circle>
+            <circle cx="84" cy="84" r="84" id="ss"></circle>
+          </svg>
+          <div id="sec">00</div>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="datedays"></div>
+
+  <div class="tcon">
+    <h2 class="tg">
+      <span aria-hidden="true">The Time is Running...</span>
+      <span aria-hidden="true">The Time is Running...</span>
+      The Time is Running...</h2>
+  </div>
+
+</body>
+
+</html>
