@@ -57,20 +57,10 @@ $(function () {
     let mm = document.getElementById('mm');
     let ss = document.getElementById('ss');
 
-    hh.style.strokeDashoffset = 380 - (380 * h) / 12;
-    mm.style.strokeDashoffset = 380 - (380 * m) / 60;
-    ss.style.strokeDashoffset = 380 - (380 * s) / 60;
+    hh.style.strokeDashoffset = 530 - (530 * h) / 12;
+    mm.style.strokeDashoffset = 530 - (530 * m) / 60;
+    ss.style.strokeDashoffset = 530 - (530 * s) / 60;
 
   }, 1000);
 
 });
-
-
-
-
-
-
-
-
-
-
